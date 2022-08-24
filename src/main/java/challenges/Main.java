@@ -2,6 +2,7 @@ package challenges;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,9 +10,10 @@ public class Main {
 
         MovieStore movieStore = new MovieStore();
 
-        Map<String, List<String>> list = movieStore.getMovies();
-
-
+        String collect = movieStore.getMovies().values().stream()
+                .flatMap(s -> s.stream())
+                .collect(Collectors.joining("!"));
+        System.out.println(collect);
 
 
     }
