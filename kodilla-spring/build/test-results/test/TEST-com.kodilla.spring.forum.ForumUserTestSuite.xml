@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.forum.ForumUserTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-09T11:26:09" hostname="DESKTOP-D6I026T" time="0.353">
+  <properties/>
+  <testcase name="testGetUsername()" classname="com.kodilla.spring.forum.ForumUserTestSuite" time="0.353"/>
+  <system-out><![CDATA[13:26:09.618 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Development\Projects\kodilla-good-patterns\kodilla-spring\build\classes\java\main\com\kodilla\spring\forum\ForumUser.class]
+13:26:09.623 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Development\Projects\kodilla-good-patterns\kodilla-spring\build\classes\java\main\com\kodilla\spring\shape\Circle.class]
+13:26:09.624 [Test worker] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Development\Projects\kodilla-good-patterns\kodilla-spring\build\classes\java\main\com\kodilla\spring\shape\Triangle.class]
+13:26:09.637 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a57ae10
+13:26:09.665 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+13:26:09.712 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+13:26:09.715 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+13:26:09.717 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+13:26:09.720 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+13:26:09.731 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'forumUser'
+13:26:09.736 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'circle'
+13:26:09.737 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'triangle'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
