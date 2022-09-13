@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="18">
+    <bytecodeTargetLevel target="17">
       <module name="kodilla-spring" target="17" />
+      <module name="kodilla-spring-web" target="17" />
+      <module name="kodilla-spring-web.main" target="17" />
+      <module name="kodilla-spring-web.test" target="17" />
       <module name="kodilla-spring.main" target="17" />
       <module name="kodilla-spring.test" target="17" />
     </bytecodeTargetLevel>
