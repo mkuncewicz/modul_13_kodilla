@@ -1,3 +1,4 @@
+
 package com.kodilla.patterns.factory.tasks;
 
 import org.junit.jupiter.api.Assertions;
