@@ -10,7 +10,14 @@ public class MedianAdaptee implements BookStatistics {
 
     @Override
     public int averagePublicationYear(Map<BookSignature, BookB> books) {
-        return 0;
+        int result = 0;
+
+        for (BookB book : books.values()){
+            result += book.getYearOfPublication();
+        }
+        result = result / books.size();
+
+        return result;
     }
 
     @Override
